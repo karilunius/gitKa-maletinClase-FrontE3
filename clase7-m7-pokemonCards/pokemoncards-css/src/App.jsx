@@ -2,6 +2,28 @@ import "./css/app.css";
 import React, { Component } from "react";
 import Card from "./componentes/Card.jsx";
 import Pokemon from "./componentes/Pokemon.jsx";
+import { CreateGlobalStyle, AppContent, Title , ContenedorPrincipal } from "./styledComponents/styled-app.js";
+
+const App = () => {
+	return (
+		<AppContent>
+			<ContenedorPrincipal>
+				<Title>Pokemon Cards</Title>
+				<Card />
+			</ContenedorPrincipal>
+		</AppContent>
+	);
+};
+
+export default App;
+
+
+
+//before
+/* import "./css/app.css";
+import React, { Component } from "react";
+import Card from "./componentes/Card.jsx";
+import Pokemon from "./componentes/Pokemon.jsx";
 
 const App = () => {
 	return (
@@ -14,4 +36,4 @@ const App = () => {
 	);
 };
 
-export default App;
+export default App; */

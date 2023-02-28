@@ -1,13 +1,15 @@
 import '../css/Card.css';
 import Pokemon from "./Pokemon.jsx";
 import Data from "../Data.json";
+import { Kard, ContenedorCard } from "../styledComponents/styled-kard.js";
+
 
 function Card() {
 	const type = ["fire", "water", "electric", "air"];
 
 	return (
-		<div className="Card">
-			<div className="contenedor-card">
+		<Kard>
+			<ContenedorCard>
 				{type.map((elemento) => (
 					<div key={elemento}>
 						{Data[elemento].map((pokemon) => (
@@ -15,8 +17,8 @@ function Card() {
 						))}
 					</div>
 				))}
-			</div>
-		</div>
+			</ContenedorCard>
+		</Kard>
 	);
 }
 

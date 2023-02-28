@@ -1,0 +1,14 @@
+.Card {
+	min-height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.contenedor-card {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10px;
+	align-items: center;
+	justify-content: center;
+}

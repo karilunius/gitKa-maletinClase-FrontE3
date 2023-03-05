@@ -1,0 +1,15 @@
+/* import { createGlobalStyle } from "styled-components";
+
+
+export const CreateGlobalStyle = createGlobalStyle`
+	*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+	font-size: 18px;
+	background-color: #242424;
+}
+`; */

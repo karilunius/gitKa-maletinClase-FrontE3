@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+/* import styled from 'styled-components';
 
 
 export const AppFrame = styled.div `
@@ -10,4 +10,4 @@ export const AppFrame = styled.div `
 	padding-top: 15px;
 	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 `;
-
+ */

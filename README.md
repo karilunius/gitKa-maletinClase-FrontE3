@@ -8,3 +8,4 @@ carpeta de aprendizaje DH FrontEnd 3
 - 2 clase7-m7-pokemonCards -  adaptación de proyecto con css modulos 
 - 3 clase8-m7-reutilizacion de css (no realizado)
 - 4 clase9-m7-counter(funcional y clase)
+- 5 clase10 a 12 -x-practica con forms para parcial. (parcial)

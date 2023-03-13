@@ -11,6 +11,7 @@ export const CreateGlobalStyle = createGlobalStyle`
 html,body {
 	font-size: 18px;
 	background-color: #f5f6f7;
+	height: 100vh;
 }
 `;
 

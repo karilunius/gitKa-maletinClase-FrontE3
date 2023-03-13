@@ -1,3 +1,6 @@
 [submodule "clase6-m7-pokemonCards"]
 	path = clase6-m7-pokemonCards
 	url = https://github.com/karilunius/mesa7.git
+[submodule "cabrera-parcial1-dh-frontE3"]
+	path = cabrera-parcial1-dh-frontE3
+	url = https://github.com/karilunius/cabrera-parcial1-dh-frontE3
